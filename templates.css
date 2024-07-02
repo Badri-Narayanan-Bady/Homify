@@ -1,0 +1,54 @@
+/* Service Templates Styles */
+
+.service-templates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .service-template {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    width: calc(25% - 40px);
+  }
+  
+  .service-template:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .service-template h3 {
+    margin-top: 0;
+  }
+  
+  .service-template button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .service-template button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+   .service-template {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+   .service-template {
+      width: 100%;
+    }
+  }

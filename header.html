@@ -1,0 +1,19 @@
+<header>
+    <div className="logo">
+      <img src="homify-logo.png" alt="Homify Logo" />
+    </div>
+    <div className="location-selector">
+      <input type="text" id="location" placeholder="Enter your location" />
+      <button id="location-btn">Use Current Location</button>
+    </div>
+    <div className="login-signup">
+      {isLoggedIn? (
+        <div className="profile">
+          <img src={userProfilePic} alt="User Profile" />
+          <span>{userName}</span>
+        </div>
+      ) : (
+        <button id="login-btn">Login / Sign up</button>
+      )}
+    </div>
+  </header>

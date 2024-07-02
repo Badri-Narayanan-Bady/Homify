@@ -1,0 +1,43 @@
+.services-dropdown {
+    position: relative;
+  }
+  
+  #services-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #services-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #services-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+  }
+  
+  .services-dropdown:hover #services-list {
+    display: block;
+  }
+  
+  #services-list li {
+    margin-bottom: 10px;
+  }
+  
+  #services-list li a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  #services-list li a:hover {
+    color: #23527c;
+  }
